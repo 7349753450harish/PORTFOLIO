@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/5716b8728c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2>Harish's portfolio</h2>
+                    <ul id="sidemenu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li> <a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"> </i>
+
+            </nav>
+            <div class="header-text">
+                <h2>Hi,I'm <span>Harish Chawhan</span></h2>
+                <p>I am Passionate</p>
+                <span id="element"></span>
+
+            </div>
+        </div>
+
+    </div>
+    
+   
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dev image1.avif" alt="" srcset="">
+                </div>
+                <div class="about-col-2">
+
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae repudiandae, accusamus nostrum
+                        ea
+                        deserunt numquam porro maiores hic dolor dignissimos tenetur quidem, ab in dolorem quasi ad
+                        provident itaque cumque fugit facere sequi incidunt doloremque? Veniam labore ea ducimus dolorem
+                        possimus repellat ipsum explicabo necessitatibus quos eligendi? Sint natus minus consectetur
+                        nisi
+                        sapiente aperiam, doloremque aliquam, quo assumenda impedit reiciendis.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Expeirence</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>Free Lancing</span><br>Designing web/app interfaces</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>Free Lancing</span><br>Designing web/app interfaces</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>A.S.Patil College Of Commerce</li>
+                            <li><span>2013-2015</span><br>Shree Vijaya Chetana P.U.College</li>
+                            <li><span>2011</span><br>Sainik School Kodagu</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab illo odio quisquam laborum hic
+                        consectetur omnis velit cupiditate vitae.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab illo odio quisquam laborum hic
+                        consectetur omnis velit cupiditate vitae.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-regular fa-person"></i>
+                    <h2>Free Lancing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab illo odio quisquam laborum hic
+                        consectetur omnis velit cupiditate vitae.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="web img.avif" alt="">
+                    <div class="layer">
+                        <h3>Social Web App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cum? Eaque, atque quaerat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="music img.avif" alt="">
+                    <div class="layer">
+                        <h3>Music Web App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cum? Eaque, atque quaerat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="free lancing.avif" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, cum? Eaque, atque quaerat.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>7349753450@harish.gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7349753450</p>
+                    <div class="social">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linked.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+
+                    </div>
+                    <a href="HARISH RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" required placeholder="your name">
+                        <input type="email" name="email" required placeholder="your email">
+                        <textarea name="Messege" id="" cols="30" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Harish. Made with <i class="fas fa-heart"></i>by the help of internet</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['FRONTEND WEB-DEVELOPER', 'FREELANCER!'],
+            typeSpeed: 30,
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
